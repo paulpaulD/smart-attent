@@ -1,0 +1,43 @@
+/* Dashboard Styling */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9ecef; /* Light background color */
+    color: #333; /* Dark text color */
+    text-align: center; /* Center text alignment */
+  }
+  
+  .dashboard-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #007bff; /* Primary color */
+  }
+  
+  .dashboard-container button {
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px); /* Button lift effect */
+  }
+  
+  .dashboard-container button:active {
+    background-color: #1e7e34; /* Even darker green on active */
+  }
+  
+  .dashboard-container button:focus {
+    outline: none; /* Remove default focus outline */
+  }
+  
